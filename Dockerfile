@@ -25,7 +25,7 @@ RUN mkdir -p /opt/prusaSlicer \
     && rm *.AppImage \
     && mv squashfs-root/* . \
     && rm -rf squashfs-root/ \
-    && chown 1000:1000 -R /opt/bambuStudio
+    && chown 1000:1000 -R /opt/prusaSlicer
 
 # Set this so that Bambu Studio doesn't complain about
 # the CA cert path on every startup
